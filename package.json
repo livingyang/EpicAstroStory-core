@@ -1,0 +1,29 @@
+{
+  "name": "epicastrostory-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack --mode=none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livingyang/EpicAstroStory-core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livingyang/EpicAstroStory-core/issues"
+  },
+  "homepage": "https://github.com/livingyang/EpicAstroStory-core#readme",
+  "dependencies": {
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  }
+}
